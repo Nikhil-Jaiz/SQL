@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+select customer_number from Orders GROUP BY Customer_number 
+Order By count(customer_number) DESC LIMIT 1; 
+
+//Note that with oder by clause we cannot use aggregrate functions directly
+//Also we say say max(count) it is not directly embedded
+//If we say count >1 then there exist multuple record and in that we have to find the maximum which is first 
+//in desc order which is written as limit 1
