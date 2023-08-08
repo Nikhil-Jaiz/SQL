@@ -1,0 +1,2 @@
+select email from Person group by email having count(email)>1;
+//Group By clause is used to group and is applied with aggregate functions.

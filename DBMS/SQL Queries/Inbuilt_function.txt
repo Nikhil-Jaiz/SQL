@@ -1,0 +1,4 @@
+substring(string_name,start index,length);
+replace(string_name,character1,character2);
+length(string_name);
+min(),max(),count(),avg(),sum(),aggregate();
