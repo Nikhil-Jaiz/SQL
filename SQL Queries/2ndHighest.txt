@@ -1,0 +1,16 @@
+# Write your MySQL query statement below
+# //Approach 1 using max() function
+# select max(salary) as SecondHighestSalary from Employee where salary <
+# (select max(salary) from Employee);
+
+# Approach 2 use of not in or not equal to same as max 
+# select max(salary) as SecondHighestSalary from Employee where salary NOT IN
+# (select max(salary) from Employee);
+
+#Approach 3 using Limit clause
+# select distinct(salary) as SecondHighestSalary from Employee 
+# order by salary DESC Limit 1,1;
+
+# Approach-4 corelated query
+# select distinct salary as SecondHighestSalary from Employee e1 where 1 =
+# (select count(distinct salary) from Employee e2 where e2.salary>e1.salary);
