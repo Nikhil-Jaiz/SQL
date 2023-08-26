@@ -4,3 +4,6 @@ length(string_name);
 min(),max(),count(),avg(),sum(),aggregate();
 DATEDIFF(1,2)=value;
 limit n-1,length; // for example limit(1,1) means 2nd row and length 1 //n dpeicts the start point.
+LOWERCASE(STRING);
+UPPERCASE(STRING);
+ROUND(Number,Places to Be Round Off).
