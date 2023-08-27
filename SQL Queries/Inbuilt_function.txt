@@ -7,3 +7,4 @@ limit n-1,length; // for example limit(1,1) means 2nd row and length 1 //n dpeic
 LOWERCASE(STRING);
 UPPERCASE(STRING);
 ROUND(Number,Places to Be Round Off).
+dense_rank() over (order by ) as 'Alais_Name'
